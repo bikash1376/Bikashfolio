@@ -1,0 +1,120 @@
+
+
+
+
+.profile-header {
+    /* background-color: #1c1c1c; */
+    /* color: white; */
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .profile-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  .profile-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 10px;
+  }
+
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .profile-bio {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .hire-me-button {
+    /* background-color: #ffffff; */
+    /* color: #1da1f2; */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+  .profile-test {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .username {
+    color: rgb(180, 180, 180);
+    display: none;
+  }
+
+  .pronoun {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(180, 180, 180);
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .social-icons {
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .profile-content {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .profile-test {
+      display: flex;
+      justify-content: center;
+      gap: 250px;
+    }
+
+    .socials {
+      flex-direction: row;
+      align-items: baseline;
+      gap: 200px;
+    }
+    .username {
+      color: rgb(180, 180, 180);
+    }
+  }

@@ -1,0 +1,105 @@
+
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #e1e8ed;
+    margin-bottom: 15px;
+  }
+
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #657786;
+  }
+
+  .tab.active {
+    color: #1da1f2;
+    border-bottom: 2px solid #1da1f2;
+  }
+
+  .tab-content {
+    display: none;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+
+
+  .experience {
+    /* background-color: #1c1c1c; */
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 1px;
+    margin-bottom: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.experience:hover {
+    transform: scale(1.01);
+}
+
+.experience h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #1e90ff;
+}
+
+.experience .role {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.experience .role::before {
+    content: "💻";
+    margin-right: 8px;
+}
+
+.experience .company {
+    font-style: italic;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.experience .company::before {
+    content: "🏢";
+    margin-right: 8px;
+}
+
+.experience .duration {
+    color: #aaa;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.experience .duration::before {
+    content: "⏰";
+    margin-right: 8px;
+}
+
+.experience p {
+    margin-bottom: 10px;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    /* background-color: #333;
+    color: #ffffff; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.85em;
+    display: inline-block;
+}
