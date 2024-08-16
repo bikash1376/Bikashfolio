@@ -26,59 +26,56 @@ const Work = () => {
 
     <div class="project-card">
       <div class="project-header">
-        <img src="https://th.bing.com/th/id/OIP.PBKDcYxc9Z7fvKOXlBn5bgAAAA?rs=1&pid=ImgDetMain" alt="Spotlistify Icon" />
+        <img src="https://th.bing.com/th/id/OIG4.sa0Pl9vIWWDyXEWhFokK?pid=ImgGn" alt='CafeControl Icon' />
         <div>
-          <h3>Spotlistify <span class="status building">Building</span></h3>
-          <p>A directory of Spotify playlists</p>
+          <h3>CafeControl 
+            {/* <span class="status building">•</span> */}
+          </h3>
+          <p>A comprehensive web application designed to streamline cafe operations</p>
         </div>
       </div>
       <div class="tags">
-        <span>Next JS</span>
-        <span>TypeScript</span>
+        <span>React JS</span>
         <span>Tailwind</span>
-        <span>ShadCn</span>
-        <span>Tanstack Query</span>
-        <span>PostgreSQL</span>
-        <span>Prisma</span>
-        <span>NextAuth</span>
+        <span>MongoDB</span>
+        <span>Node JS</span>
+        <span>Express</span>
       </div>
       <div class="project-links">
-        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
-        <a href="#" class="project-copy"><i class="fa-brands fa-github"></i></a>
+        <a href="https://gitub.com/bikash1376" class="project-link"><i class="fa-solid fa-link"></i></a>
+        <a href="https://gitub.com/bikash1376" class="project-copy"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
 
     <div class="project-card">
       <div class="project-header">
-        <img src="https://th.bing.com/th/id/OIP.ATQOkq8aaXwqNQgBPM1N8AHaHa?rs=1&pid=ImgDetMain" alt="Silly Questions Icon" />
+        <img src="https://th.bing.com/th/id/OIP.ATQOkq8aaXwqNQgBPM1N8AHaHa?rs=1&pid=ImgDetMain" alt="Recipe App Icon" />
         <div>
           <h3>
-            Silly Questions <span class="status running">Running</span>
+            Recipe App <span class="status running">Running</span>
           </h3>
           <p>
-            Generate 100% engagement guaranteed questions to get more
-            engagements...
+            List of Recipes with feature to favourite them 
           </p>
         </div>
       </div>
       <div class="tags">
-        <span>Next JS</span>
-        <span>TypeScript</span>
-        <span>Tailwind</span>
-        <span>Mistral AI</span>
-        <span>ShadCn</span>
+        <span>React Js</span>
+        <span>Tailwind CSS</span>
+        <span>Edamam API</span>
+        <span>Axios</span>
       </div>
       <div class="project-links">
-        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
-        <a href="#" class="project-copy"><i class="fa-brands fa-github"></i></a>
+        <a href="https://gitub.com/bikash1376" class="project-link"><i class="fa-solid fa-link"></i></a>
+        <a href="https://gitub.com/bikash1376" class="project-copy"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
 
     <div class="project-card">
       <div class="project-header">
-        <img src="https://th.bing.com/th/id/R.e52bd428d0e821fed4d58ab6988d44c8?rik=93pJt4Ys7Aw7bg&riu=http%3a%2f%2flofrev.net%2fwp-content%2fphotos%2f2016%2f08%2frandom_logo_1.png&ehk=4Su0HMlE75LqSpA67oF3OzYp%2bdhGI8eAsSe%2bCC9Qy1E%3d&risl=&pid=ImgRaw&r=0" alt="27Startups Icon" />
+        <img src="https://th.bing.com/th/id/OIG2._V6pPj3y9Vnwp8uY.mvU?pid=ImgGn" alt="21Startups Icon" />
         <div>
-          <h3>27Startups <span class="status running">Running</span></h3>
+          <h3>21Startups <span class="status running">Running</span></h3>
           <p>Inspired by Marc Louvion's 50 Hacks platform...</p>
         </div>
       </div>
@@ -90,8 +87,8 @@ const Work = () => {
         <span>Tanstack Query</span>
       </div>
       <div class="project-links">
-        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
-        <a href="#" class="project-copy"><i class="fa-brands fa-github"></i></a>
+        <a href="https://gitub.com/bikash1376" class="project-link"><i class="fa-solid fa-link"></i></a>
+        <a href="https://gitub.com/bikash1376" class="project-copy"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
     </div>

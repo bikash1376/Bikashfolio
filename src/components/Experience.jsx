@@ -25,23 +25,24 @@ const Experience = () => {
         <section class="experience">
             <h3>Prodigy Infotech</h3>
             <div class="role">Web Developer Intern</div>
-             {/* <div class="company">Tech Solutions Inc.</div> */}
-            <div class="duration">Jan 2020 - Present</div>
-            <p>Developed and maintained web applications using JavaScript, React, and Node.js. Led a team of developers to deliver high-quality software on time.</p>
+            <div class="duration">Jan 2024 - March 2024</div>
+            <p>Contributed extensively to the development of a portfolio website during my internship, using ReactJS</p>
+            <p>Successfully completed all tasks assigned by the organization</p>
             <div class="tags">
                 <div class="tag">JavaScript</div>
                 <div class="tag">React</div>
                 <div class="tag">Node.js</div>
-                <div class="tag">Leadership</div>
+                <div class="tag">Communication</div>
             </div>
         </section>
 
         <section class="experience">
             <h3>DevZone Tech</h3>
             <div class="role">Junior Developer</div>
-           {/* <div class="company">Creative Agency</div> */}
-            <div class="duration">Jun 2017 - Dec 2019</div>
-            <p>Created responsive websites and improved user experience through interactive UI elements. Worked closely with designers and backend developers.</p>
+            <div class="duration">Jun 2023 - Aug 2023</div>
+            <p>Accomplished the successful delivery of a full-stack web development project within a two-month timeframe</p>
+            <p>Played a vital role in a collaborative team effort, consistently meeting deadlines and received commendable
+            feedback from clients.</p>
             <div class="tags">
                 <div class="tag">HTML</div>
                 <div class="tag">CSS</div>

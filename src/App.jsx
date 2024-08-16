@@ -34,9 +34,9 @@ function App() {
     <Router>
       <div className="container">
         <div className="for-button">
-      <button onClick={toggleTheme}>
+      <span onClick={toggleTheme}>
         {theme === 'light' ? '🌑' : '☀️'}
-      </button>
+      </span>
       </div>
         <Profile />
         <TechStack />

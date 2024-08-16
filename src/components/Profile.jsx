@@ -22,7 +22,7 @@ const Profile = () => {
             width="150"
             height="150"
           />
-          <button className="hire-me-button">HIRE ME</button>
+          <button className="hire-me-button"><a href="mailto:bikash13763">HIRE ME</a></button>
         </div>
         <div className="socials">
           <h1 className="profile-name">
@@ -30,16 +30,14 @@ const Profile = () => {
           </h1>
           <div className="social-icons">
             <a href="mailto:bikash1376"><i className="fa-regular fa-envelope"></i></a>
-            <a href="linkedin.com"><i className="fa-brands fa-linkedin"></i></a>
-            <a href="github.com/bikash1376"><i className="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/bikash-sahu-2a3371245/" target="_blank"
+            ><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.github.com/bikash1376" target="_blank"><i className="fa-brands fa-github"></i></a>
           </div>
         </div>
-        <a href="x.com/bikash1376" className="x-user"><span className="username">@jane_doe_dev</span></a>
         <p className="profile-bio">
-          Full-stack developer | Open source enthusiast | Coffee lover Lorem
-          ipsum dolor sit, amet consectetur adipisicing elit. Placeat
-          mollitia fuga eveniet, illo fugiat aspernatur fugit ipsam
-          temporibus, et ut dolor officia!
+        Full-stack developer | Golang | Problem solver | Crafting dynamic web apps | 
+        <br /> <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
     </div>
