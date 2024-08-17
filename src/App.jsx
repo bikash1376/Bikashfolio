@@ -10,8 +10,8 @@ import './ForButton.css'
 function App() {
 
   const [theme, setTheme] = useState('light');
-
-  // Load theme from local storage if available
+  
+// Loading theme if present
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {

@@ -29,7 +29,7 @@ const Work = () => {
         <img src="https://th.bing.com/th/id/OIG4.sa0Pl9vIWWDyXEWhFokK?pid=ImgGn" alt='CafeControl Icon' />
         <div>
           <h3>CafeControl 
-            {/* <span class="status building">•</span> */}
+            <span class="status running">Running</span>
           </h3>
           <p>A comprehensive web application designed to streamline cafe operations</p>
         </div>
@@ -42,8 +42,8 @@ const Work = () => {
         <span>Express</span>
       </div>
       <div class="project-links">
-        <a href="https://gitub.com/bikash1376" class="project-link"><i class="fa-solid fa-link"></i></a>
-        <a href="https://gitub.com/bikash1376" class="project-copy"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.github.com/bikash1376/CafeControl" target='_blank' class="project-link"><i class="fa-solid fa-link"></i></a>
+        <a href="https://www.github.com/bikash1376/CafeControl" target='_blank' class="project-copy"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
 
@@ -66,8 +66,8 @@ const Work = () => {
         <span>Axios</span>
       </div>
       <div class="project-links">
-        <a href="https://gitub.com/bikash1376" class="project-link"><i class="fa-solid fa-link"></i></a>
-        <a href="https://gitub.com/bikash1376" class="project-copy"><i class="fa-brands fa-github"></i></a>
+        <a href="https://recipe-app-bs.vercel.app/" target='_blank' class="project-link"><i class="fa-solid fa-link"></i></a>
+        <a href="https://www.github.com/bikash1376/Recipe-app" target='_blank' class="project-copy"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
 
@@ -75,7 +75,7 @@ const Work = () => {
       <div class="project-header">
         <img src="https://th.bing.com/th/id/OIG2._V6pPj3y9Vnwp8uY.mvU?pid=ImgGn" alt="21Startups Icon" />
         <div>
-          <h3>21Startups <span class="status running">Running</span></h3>
+          <h3>21Startups <span class="status building">Building</span></h3>
           <p>Inspired by Marc Louvion's 50 Hacks platform...</p>
         </div>
       </div>
@@ -87,8 +87,8 @@ const Work = () => {
         <span>Tanstack Query</span>
       </div>
       <div class="project-links">
-        <a href="https://gitub.com/bikash1376" class="project-link"><i class="fa-solid fa-link"></i></a>
-        <a href="https://gitub.com/bikash1376" class="project-copy"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.github.com/bikash1376?tab=repositories" target='_blank' class="project-link"><i class="fa-solid fa-link"></i></a>
+        <a href="https://www.github.com/bikash1376" target='_blank' class="project-copy"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
     </div>

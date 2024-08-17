@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
   body {
     font-family: "Bricolage Grotesque", sans-serif;
     background-color: #100f0f;
@@ -20,19 +19,16 @@
     color: inherit;
   }
 
-
-
-  /* App.css */
-
 /* Default light theme */
 body {
   background-color: #ffffff;
   color: #000000;
+
 }
 
 .container {
   padding: 8px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 1s ease, color 1s ease;
 }
 
 
@@ -40,6 +36,7 @@ body {
   background-color: #ffffff;
   color: #1c1c1c;
   border: 1px solid #d2d2d2;
+
 }
 
 .section {
@@ -51,20 +48,24 @@ body {
   background-color: #d7d7d7;
   color: #2d2d2d;
   cursor: pointer;
+
 }
 
 .project-card {
   background-color: #ffffff;
   border: 1px solid #d2d2d2;
+
   }
 
   .experience {
     background-color: #ffffff;
     border: 1px solid #d2d2d2;
+
   }
   .tags span {
     background-color: #d7d7d7;
   color: #2d2d2d;
+
   }
   .tag {
     background-color: #d7d7d7;
@@ -72,17 +73,28 @@ body {
   }
   footer span {
     color: rgb(84, 84, 84);
+
   }
   
   .hire-me-button {
     color: white;
     background-color: #1e90ff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 3s ease-in;
+  }
+  .hire-me-button:hover {
+    color: white;
+    background-color: #656565;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    /* border: 2px solid white; */
+    transition:1s ease-in-out;
+    transform: scale(1.08);
   }
   
   .for-button {
     cursor: pointer;
     background-color: #ffffff;
+
   }
 
 
@@ -95,12 +107,14 @@ body {
 [data-theme='dark'] {
   background-color: #181818;
   color: #ffffff;
+
 }
 
 [data-theme='dark'] .profile-header {
   background-color: #1c1c1c;
   color: #ffffff;
   border: 1px solid #000000;
+
 }
 
 [data-theme='dark'] .section {
@@ -117,6 +131,7 @@ body {
 [data-theme='dark'] .container {
   background-color: #100f0f;
   color: #ffffff;
+
 }
 
 
@@ -124,11 +139,13 @@ body {
   background-color: #2a3035;
   cursor: pointer;
   color: #e1e5e7;
+
 }
 
 [data-theme='dark'] .project-card {
 background-color: #1c1c1c;
 border: 1px solid #000000;
+
 }
 
 [data-theme='dark'] .experience {
@@ -138,12 +155,14 @@ border: 1px solid #000000;
 [data-theme='dark'] .tags span {
   background-color: #333;
   color: #ffffff;
+
 }
 
 
 [data-theme='dark'] .tag {
   background-color: #333;
   color: #ffffff;
+
 }
 [data-theme='dark'] footer span {
   color: rgb(212, 211, 211);
@@ -152,22 +171,27 @@ border: 1px solid #000000;
   color: white;
   background-color: #1e90ff;
   box-shadow: 0 4px 8px rgba(133, 132, 132, 0.85);
+  border: 1px solid rgb(121, 121, 121);
+  transition: 1s ease-in-out;
 }
+
+
 [data-theme='dark'] .for-button {
   cursor: pointer;
   background-color: #000000;
+
+}
+
+[data-theme='dark'] .hire-me-button:hover {
+  background-color: #434242;
+  box-shadow: 4px 4px 4px rgba(156, 155, 155, 0.85);
+  border: 1px solid rgb(167, 167, 167);
+  transition: 1s ease-in-out;
 }
 
 /* Additional styling for buttons or specific elements */
 button {
-  /* background-color: #4caf50; */
-  /* color: #ffffff; */
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-}
-
-
-[data-theme='dark'] button {
-  background-color: #000000;
 }

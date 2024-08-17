@@ -9,9 +9,8 @@ function GetInTouch() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentDateTime(formatDateTime());
-    }, 1000); // Update every second
+    }, 1000);
 
-    // Clean up the interval on component unmount
     return () => clearInterval(intervalId);
   }, []);
   

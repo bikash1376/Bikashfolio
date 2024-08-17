@@ -1,7 +1,5 @@
 .section {
     margin-top: 8px;
-    /* background-color: #1c1c1c; */
-    /* border: 1px solid #1c1c1c; */
     border-radius: 12px;
     padding: 15px;
     margin-bottom: 15px;
@@ -21,8 +19,6 @@
   }
 
   .tech-item {
-    /* background-color: #2a3035; */
-    /* color: #e1e5e7; */
     padding: 5px 10px;
     border-radius: 15px;
     font-size: 14px;
